@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.baoyachi:StepView:1.9@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4855502b12f4b9d0a566492336024e99/transformed/jetified-StepView-1.9/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4855502b12f4b9d0a566492336024e99/transformed/jetified-StepView-1.9/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4855502b12f4b9d0a566492336024e99/transformed/jetified-StepView-1.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b35736b1e99caafd71f3af71a6ee7b9c/jetified-StepView-1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b35736b1e99caafd71f3af71a6ee7b9c/jetified-StepView-1.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b35736b1e99caafd71f3af71a6ee7b9c/jetified-StepView-1.9/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
