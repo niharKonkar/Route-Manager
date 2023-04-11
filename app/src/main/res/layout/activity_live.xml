@@ -1,0 +1,206 @@
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.routeassociation.LiveActivity">
+
+    <include
+        android:id="@+id/topBar"
+        layout="@layout/top_bar"></include>
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/swipeView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.routeassociation.LiveDetailsActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_bar"
+        android:id="@+id/topBar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/liveLinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/schoolbus_1"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:id="@+id/liveRunning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#FF000000" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/schoolbus_2"
+                android:layout_marginStart="10dp" />
+
+            <TextView
+                android:id="@+id/liveStationary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#FF000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/liveLinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="#FFF"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/schoolbus_3"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:id="@+id/liveGpsOff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#FF000000" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/schoolbus_4"
+                android:layout_marginStart="10dp" />
+
+            <TextView
+                android:id="@+id/liveOff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#FF000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <EditText
+                android:layout_height="40dp"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:id="@+id/searchText"
+                android:background="@drawable/button_border2"
+                android:drawableStart="@drawable/search"
+                android:drawableLeft="@drawable/search"
+                android:drawablePadding="10dp"
+                android:hint="Vehicle no."
+                android:inputType="text" />
+
+            <RelativeLayout
+                android:layout_margin="5dp"
+                android:id="@+id/busTypeSpinnerLayout"
+                android:background="@drawable/button_border2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/busTypeSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:spinnerMode="dropdown"
+                    android:layout_marginStart="5dp" />
+
+                <ImageView
+                    android:src="@drawable/down_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_alignParentEnd="true"
+                    android:padding="5dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="@drawable/rect_shape"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+
+        android:padding="5dp"
+        android:id="@+id/routeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="serif"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:id="@+id/geofenceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="serif"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:id="@+id/vehNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+    <TextView
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+    <TextView
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/timestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+    </LinearLayout>
+</LinearLayout>

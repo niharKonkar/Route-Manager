@@ -1,0 +1,32 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:layout_weight="1.8"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.zicom.MapsActivity"
+        tools:layout="@layout/activity_maps" />
+
+ <!--   <Button
+        android:textColor="@color/white"
+        android:background="@color/grey"
+        android:text="GEOFENCE NOW"
+     android:textStyle="bold"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGeoFence" />-->
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectCommunicationDetailsActivity">
+
+    <include
+        android:id="@+id/topBar"
+        layout="@layout/top_bar"/>
+
+    <TextView
+        android:id="@+id/txtIncidenceType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Department"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/depName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="DepName"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/lay1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_below="@+id/label2"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:layout_marginRight="3dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:background="@drawable/button_border"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/depSpinner"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:gravity="center"-->
+<!--            android:spinnerMode="dropdown" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/down_arrow" />-->
+
+<!--    </RelativeLayout>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Send notification by selecting route"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+        android:background="@color/gray" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/layParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/routeDetailsRecyView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+    <LinearLayout
+
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:id="@+id/layNoRecord"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:alpha="0.5"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:src="@drawable/notification"
+            android:layout_height="100dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Route details not found!"/>
+    </LinearLayout>
+</LinearLayout>

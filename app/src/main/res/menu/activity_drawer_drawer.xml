@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/btnTimeline"
+            android:icon="@drawable/timeline"
+            android:title="Timeline" />
+        <item
+
+            android:id="@+id/btnAddDriver"
+            android:icon="@drawable/ic_if_add_user_309049"
+            android:title="Add Bus Driver/Attendant" />
+
+        <item
+
+            android:id="@+id/btnLiveData"
+            android:icon="@drawable/live_data"
+            android:title="Live Data" />
+        <item
+
+            android:id="@+id/btnRouteCount"
+            android:icon="@drawable/search"
+            android:title="Route Count" />
+
+        <item
+
+            android:id="@+id/btnViewBusStops"
+            android:icon="@drawable/geofence"
+            android:title="View Bus Stops" />
+
+        <item
+
+            android:id="@+id/btnRealtimeAnalysis"
+            android:icon="@drawable/analysis"
+            android:title="Realtime Analysis" />
+        <item
+
+            android:id="@+id/btnIncident"
+            android:icon="@drawable/ic_iconfinder_calendar_check_o_1608596"
+            android:title="View Incidents" />
+
+        <item
+
+            android:id="@+id/btnSystemLog"
+            android:icon="@drawable/ic_files"
+            android:title="System Log" />
+        <item
+            android:visible="false"
+            android:id="@+id/btnUploadDocuments"
+            android:icon="@drawable/upload"
+            android:title="Upload Documents" />
+        <item
+            android:visible="false"
+            android:id="@+id/btnUploadIncidence"
+            android:icon="@drawable/upload_data"
+            android:title="Upload Incidence" />
+        <item
+            android:visible="false"
+            android:id="@+id/btnNotification"
+            android:icon="@drawable/notification"
+            android:title="Notification" />
+        <item
+
+            android:id="@+id/btnCommunication"
+            android:icon="@drawable/notification"
+            android:title="Communication" />
+        <item
+            android:id="@+id/btnAbout"
+            android:icon="@drawable/about"
+            android:title="About" />
+        <item
+            android:id="@+id/btnCamera"
+            android:icon="@drawable/camerared"
+            android:title="Camera Status" />
+        <item
+            android:id="@+id/btnRefresh"
+            android:icon="@drawable/refresh"
+            android:title="Refresh" />
+        <item
+            android:id="@+id/btnLogout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

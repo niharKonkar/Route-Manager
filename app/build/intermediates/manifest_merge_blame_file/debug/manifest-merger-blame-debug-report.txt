@@ -1,0 +1,587 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.routeassociation"
+4    android:versionCode="57"
+5    android:versionName="1.1.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:11:5-79
+17-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.CALL_PHONE" />
+18-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:12:5-69
+18-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:12:22-66
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:13:5-81
+19-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:14:5-80
+20-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:14:22-77
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e2007115046fd0a6ca4b344a1b6f22fb\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e2007115046fd0a6ca4b344a1b6f22fb\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e2007115046fd0a6ca4b344a1b6f22fb\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e2007115046fd0a6ca4b344a1b6f22fb\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e2007115046fd0a6ca4b344a1b6f22fb\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e2007115046fd0a6ca4b344a1b6f22fb\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+30
+31        <intent>
+31-->[androidx.media:media:1.4.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1ba5beda2c2bf0cd9b0ef24b63486109\media-1.4.1\AndroidManifest.xml:25:9-27:18
+32            <action android:name="android.media.browse.MediaBrowserService" />
+32-->[androidx.media:media:1.4.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1ba5beda2c2bf0cd9b0ef24b63486109\media-1.4.1\AndroidManifest.xml:26:13-79
+32-->[androidx.media:media:1.4.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1ba5beda2c2bf0cd9b0ef24b63486109\media-1.4.1\AndroidManifest.xml:26:21-76
+33        </intent>
+34    </queries>
+35
+36    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+36-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:26:5-77
+36-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:26:22-74
+37    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+37-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:27:5-68
+37-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:27:22-65
+38    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+38-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:29:5-82
+38-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:29:22-79
+39    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+39-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\72d1827fc9f6396a5d360fae5e086f56\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:5-79
+39-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\72d1827fc9f6396a5d360fae5e086f56\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:22-76
+40    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+40-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:26:5-110
+40-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:26:22-107
+41
+42    <application
+42-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:16:5-177:19
+43        android:name="androidx.multidex.MultiDexApplication"
+44        android:allowBackup="true"
+44-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:17:9-35
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.7.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b8366cab0615a0f5b98d25aa589efdb7\core-1.7.0\AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:hardwareAccelerated="false"
+47-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:18:9-44
+48        android:icon="@drawable/ic_launcher1"
+48-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:19:9-46
+49        android:label="@string/app_name"
+49-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:20:9-41
+50        android:largeHeap="true"
+50-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:21:9-33
+51        android:supportsRtl="true"
+51-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:22:9-35
+52        android:testOnly="true"
+53        android:theme="@style/AppTheme"
+53-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:23:9-40
+54        android:usesCleartextTraffic="true" >
+54-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:24:9-44
+55        <activity android:name="com.routeassociation.RoutesDetailsAndInfoActivity" />
+55-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:25:9-75
+55-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:25:19-63
+56        <!--
+57             The API key for Google Maps-based APIs is defined as a string resource.
+58             (See the file "res/values/google_maps_api.xml").
+59             Note that the API key is linked to the encryption key used to sign the APK.
+60             You need a different API key for each encryption key, including the release key that is used to
+61             sign the APK for publishing.
+62             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+63        -->
+64        <meta-data
+64-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:34:9-36:55
+65            android:name="com.google.android.geo.API_KEY"
+65-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:35:13-58
+66            android:value="@string/google_maps_key" />
+66-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:36:13-52
+67
+68        <provider
+69            android:name="androidx.core.content.FileProvider"
+69-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:39:13-62
+70            android:authorities="com.routeassociation.provider"
+70-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:40:13-60
+71            android:exported="false"
+71-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:41:13-37
+72            android:grantUriPermissions="true" >
+72-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:42:13-47
+73            <meta-data
+73-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:43:13-45:58
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:44:17-67
+75                android:resource="@xml/provider_paths" />
+75-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:45:17-55
+76        </provider>
+77
+78        <activity
+78-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:48:9-50:69
+79            android:name="com.routeassociation.BusStopsMapsActivity"
+79-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:49:13-49
+80            android:label="@string/title_activity_bus_stops_maps" />
+80-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:50:13-66
+81        <activity android:name="com.routeassociation.BusStopsGetLocationActivity" />
+81-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:51:9-65
+81-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:51:19-62
+82        <activity android:name="com.routeassociation.RouteCountActivity" />
+82-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:52:9-56
+82-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:52:19-53
+83        <activity
+83-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:53:9-61:20
+84            android:name="com.routeassociation.SplashScreen"
+84-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:54:13-41
+85            android:exported="true" >
+85-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:55:13-36
+86            <intent-filter>
+86-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:56:13-60:29
+87                <action android:name="android.intent.action.MAIN" />
+87-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:57:17-69
+87-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:57:25-66
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:59:17-77
+89-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:59:27-74
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:62:9-64:57
+93            android:name="com.routeassociation.MainActivity"
+93-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:63:13-41
+94            android:windowSoftInputMode="stateHidden" />
+94-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:64:13-54
+95        <activity android:name="com.routeassociation.LoginActivity" />
+95-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:65:9-51
+95-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:65:19-48
+96
+97        <service
+97-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:67:9-73:19
+98            android:name="com.routeassociation.pojo.MyFirebaseService"
+98-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:68:13-51
+99            android:exported="false" >
+99-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:69:13-37
+100            <intent-filter>
+100-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:70:13-72:29
+101                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+101-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:71:17-78
+101-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:71:25-75
+102            </intent-filter>
+103        </service>
+104        <service
+104-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:74:9-80:19
+105            android:name="com.routeassociation.pojo.FirebaseIDService"
+105-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:75:13-51
+106            android:exported="false" >
+106-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:76:13-37
+107            <intent-filter>
+107-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:77:13-79:29
+108                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+108-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:78:17-80
+108-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:78:25-77
+109            </intent-filter>
+110        </service> <!-- <meta-data -->
+111        <!-- android:name="com.google.android.maps.v2.API_KEY" -->
+112        <!-- android:value="AIzaSyDpESEmmWDC43fZ1IncpttgJe6-PP_3N48" /> -->
+113        <meta-data
+113-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:83:9-85:69
+114            android:name="com.google.android.gms.version"
+114-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:84:13-58
+115            android:value="@integer/google_play_services_version" />
+115-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:85:13-66
+116        <!--
+117            <meta-data
+118            android:name="com.google.android.maps.v2.API_KEY"
+119
+120            android:value="AIzaSyBsRqYLYbrt5FAPF8D1zCL2hFzqu7LTTs8" />
+121        -->
+122        <!--
+123            <meta-data
+124            android:name="com.google.android.maps.v2.API_KEY"
+125            android:value="AIzaSyB7oadbstsTNXj8454wgjW3I2gt-_LY1R0" />
+126        -->
+127        <meta-data
+127-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:83:9-85:69
+128            android:name="com.google.android.gms.version"
+128-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:84:13-58
+129            android:value="@integer/google_play_services_version" /> <!-- android:value="AIzaSyCg4Qz63lPvOZ-h7A0_E8svIhdQKoapOqo" -->
+129-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:85:13-66
+130        <activity android:name="com.routeassociation.MapsActivity" />
+130-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:100:9-50
+130-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:100:19-47
+131        <activity android:name="com.routeassociation.LocationDetailsMapsActivity" />
+131-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:101:9-65
+131-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:101:19-62
+132        <activity android:name="com.routeassociation.LocationStepViewActivity" />
+132-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:102:9-62
+132-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:102:19-59
+133        <activity
+133-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:103:9-111:20
+134            android:name="com.routeassociation.NotificationHistoryActivity"
+134-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:104:13-56
+135            android:exported="false" >
+135-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:105:13-37
+136            <intent-filter>
+136-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:106:13-110:29
+137                <action android:name="NotificationHistoryActivity" />
+137-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:107:17-70
+137-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:107:25-67
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:109:17-76
+139-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:109:27-73
+140            </intent-filter>
+141        </activity>
+142        <activity android:name="com.routeassociation.TimelineActivity" />
+142-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:112:9-54
+142-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:112:19-51
+143
+144        <meta-data
+144-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:114:9-116:64
+145            android:name="com.google.firebase.messaging.default_notification_icon"
+145-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:115:13-83
+146            android:resource="@drawable/ic_stat_placeholder" />
+146-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:116:13-61
+147        <meta-data
+147-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:117:9-119:54
+148            android:name="com.google.firebase.messaging.default_notification_color"
+148-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:118:13-84
+149            android:resource="@color/colorPrimary" />
+149-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:119:13-51
+150
+151        <activity android:name="com.routeassociation.UploadIncidenceActivity" />
+151-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:121:9-61
+151-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:121:19-58
+152        <activity android:name="com.routeassociation.UploadDocumentsActivity" />
+152-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:122:9-61
+152-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:122:19-58
+153        <activity android:name="com.routeassociation.NewUploadDocumentActivity" />
+153-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:123:9-63
+153-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:123:19-60
+154        <activity android:name="com.routeassociation.AddDriverActivity" />
+154-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:124:9-55
+154-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:124:19-52
+155        <activity android:name="com.routeassociation.LiveMapsActivity" />
+155-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:125:9-54
+155-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:125:19-51
+156        <activity android:name="com.routeassociation.DriverInfoActivity" />
+156-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:126:9-56
+156-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:126:19-53
+157        <activity android:name="com.routeassociation.LiveDetailsActivity" />
+157-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:127:9-57
+157-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:127:19-54
+158        <activity android:name="com.routeassociation.RouteAnalysisDetailsActivity" />
+158-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:128:9-66
+158-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:128:19-63
+159        <activity android:name="com.routeassociation.RealTimePickDropAnalysisActivity" />
+159-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:129:9-70
+159-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:129:19-67
+160        <activity android:name="com.routeassociation.SystemLogActivity" />
+160-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:130:9-55
+160-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:130:19-52
+161        <activity android:name="com.routeassociation.IncidentDetailsActivity" />
+161-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:131:9-61
+161-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:131:19-58
+162        <activity android:name="com.routeassociation.UploadIncidentActivity" />
+162-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:132:9-60
+162-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:132:19-57
+163        <activity android:name="com.routeassociation.SelectCommunicationDetailsActivity" />
+163-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:133:9-72
+163-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:133:19-69
+164        <activity android:name="com.routeassociation.SendNotificationActivity" />
+164-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:134:9-62
+164-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:134:19-59
+165        <activity
+165-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:135:9-138:47
+166            android:name="com.routeassociation.CameraStatusActivity"
+166-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:136:13-49
+167            android:label="Camera Status"
+167-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:137:13-42
+168            android:theme="@style/AppTheme" />
+168-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:138:13-44
+169
+170        <uses-library
+170-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:140:9-142:40
+171            android:name="org.apache.http.legacy"
+171-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:141:13-50
+172            android:required="false" /> <!-- External entries -->
+172-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:142:13-37
+173        <receiver
+173-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:143:9-145:40
+174            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+174-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:144:13-91
+175            android:exported="false" />
+175-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:145:13-37
+176
+177        <service
+177-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:147:9-149:40
+178            android:name="com.google.android.gms.cast.framework.media.MediaNotificationService"
+178-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:148:13-96
+179            android:exported="false" />
+179-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:149:13-37
+180        <service
+180-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:150:9-152:40
+181            android:name="com.google.android.gms.cast.framework.ReconnectionService"
+181-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:151:13-85
+182            android:exported="false" />
+182-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:152:13-37
+183
+184        <activity
+184-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:154:9-166:20
+185            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+185-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:155:13-87
+186            android:exported="true"
+186-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:156:13-36
+187            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+187-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:157:13-37
+188            <intent-filter>
+188-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:158:13-165:29
+189                <data android:scheme="tagmanager.c.com.routeassociation" />
+189-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:159:23-69
+190
+191                <action android:name="android.intent.action.VIEW" />
+191-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:161:17-69
+191-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:161:25-66
+192
+193                <category android:name="android.intent.category.DEFAULT" />
+193-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:109:17-76
+193-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:109:27-73
+194                <category android:name="android.intent.category.BROWSABLE" />
+194-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:164:17-78
+194-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:164:27-75
+195            </intent-filter>
+196        </activity>
+197
+198        <receiver
+198-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:168:9-176:20
+199            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+199-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:169:13-100
+200            android:enabled="true"
+200-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:170:13-35
+201            android:exported="false"
+201-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:171:13-37
+202            android:permission="android.permission.INSTALL_PACKAGES" >
+202-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:172:13-69
+203            <intent-filter>
+203-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:173:13-175:29
+204                <action android:name="com.android.vending.INSTALL_REFERRER" />
+204-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:174:17-79
+204-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:174:25-76
+205            </intent-filter>
+206        </receiver>
+207        <receiver
+207-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:32:9-39:20
+208            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+208-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:33:13-78
+209            android:exported="true"
+209-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:34:13-36
+210            android:permission="com.google.android.c2dm.permission.SEND" >
+210-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:35:13-73
+211            <intent-filter>
+211-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:36:13-38:29
+212                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+212-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:37:17-81
+212-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:37:25-78
+213            </intent-filter>
+214        </receiver>
+215        <!--
+216             FirebaseMessagingService performs security checks at runtime,
+217             but set to not exported to explicitly avoid allowing another app to call it.
+218        -->
+219        <service
+219-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:45:9-52:19
+220            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+220-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:46:13-82
+221            android:directBootAware="true"
+221-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:47:13-43
+222            android:exported="false" >
+222-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:48:13-37
+223            <intent-filter android:priority="-500" >
+223-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:70:13-72:29
+224                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+224-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:71:17-78
+224-->C:\Users\HP\AndroidStudioProjects\techleadmobileprojects-route-manager-404681986c89\app\src\main\AndroidManifest.xml:71:25-75
+225            </intent-filter>
+226        </service>
+227        <service
+227-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:53:9-59:19
+228            android:name="com.google.firebase.components.ComponentDiscoveryService"
+228-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:54:13-84
+229            android:directBootAware="true"
+229-->[com.google.firebase:firebase-common:20.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\236d82f5efb4a881023b034817c8d073\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+230            android:exported="false" >
+230-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:55:13-37
+231            <meta-data
+231-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:56:13-58:85
+232                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+232-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:57:17-119
+233                android:value="com.google.firebase.components.ComponentRegistrar" />
+233-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3de76b46fa111f6f9853ca025c190135\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:58:17-82
+234            <meta-data
+234-->[com.google.firebase:firebase-datatransport:18.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7ed8c605a31d5f0ed1e9897cf8e5f769\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:28:13-30:85
+235                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+235-->[com.google.firebase:firebase-datatransport:18.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7ed8c605a31d5f0ed1e9897cf8e5f769\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:29:17-115
+236                android:value="com.google.firebase.components.ComponentRegistrar" />
+236-->[com.google.firebase:firebase-datatransport:18.1.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7ed8c605a31d5f0ed1e9897cf8e5f769\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:30:17-82
+237            <meta-data
+237-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\72d1827fc9f6396a5d360fae5e086f56\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
+238                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+238-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\72d1827fc9f6396a5d360fae5e086f56\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
+239                android:value="com.google.firebase.components.ComponentRegistrar" />
+239-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\72d1827fc9f6396a5d360fae5e086f56\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
+240            <meta-data
+240-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5110c7576052487bc2ad337cdd3f9068\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+241                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+241-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5110c7576052487bc2ad337cdd3f9068\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+242                android:value="com.google.firebase.components.ComponentRegistrar" />
+242-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5110c7576052487bc2ad337cdd3f9068\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+243        </service>
+244
+245        <receiver
+245-->[com.google.android.gms:play-services-analytics:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40e59a08555bc1ac04c4b956ef09e09b\jetified-play-services-analytics-18.0.1\AndroidManifest.xml:30:9-34:20
+246            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+246-->[com.google.android.gms:play-services-analytics:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40e59a08555bc1ac04c4b956ef09e09b\jetified-play-services-analytics-18.0.1\AndroidManifest.xml:31:13-78
+247            android:enabled="true"
+247-->[com.google.android.gms:play-services-analytics:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40e59a08555bc1ac04c4b956ef09e09b\jetified-play-services-analytics-18.0.1\AndroidManifest.xml:32:13-35
+248            android:exported="false" >
+248-->[com.google.android.gms:play-services-analytics:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40e59a08555bc1ac04c4b956ef09e09b\jetified-play-services-analytics-18.0.1\AndroidManifest.xml:33:13-37
+249        </receiver>
+250
+251        <service
+251-->[com.google.android.gms:play-services-analytics:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40e59a08555bc1ac04c4b956ef09e09b\jetified-play-services-analytics-18.0.1\AndroidManifest.xml:36:9-39:40
+252            android:name="com.google.android.gms.analytics.AnalyticsService"
+252-->[com.google.android.gms:play-services-analytics:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40e59a08555bc1ac04c4b956ef09e09b\jetified-play-services-analytics-18.0.1\AndroidManifest.xml:37:13-77
+253            android:enabled="true"
+253-->[com.google.android.gms:play-services-analytics:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40e59a08555bc1ac04c4b956ef09e09b\jetified-play-services-analytics-18.0.1\AndroidManifest.xml:38:13-35
+254            android:exported="false" />
+254-->[com.google.android.gms:play-services-analytics:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40e59a08555bc1ac04c4b956ef09e09b\jetified-play-services-analytics-18.0.1\AndroidManifest.xml:39:13-37
+255        <service
+255-->[com.google.android.gms:play-services-analytics:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40e59a08555bc1ac04c4b956ef09e09b\jetified-play-services-analytics-18.0.1\AndroidManifest.xml:40:9-44:72
+256            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+256-->[com.google.android.gms:play-services-analytics:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40e59a08555bc1ac04c4b956ef09e09b\jetified-play-services-analytics-18.0.1\AndroidManifest.xml:41:13-80
+257            android:enabled="true"
+257-->[com.google.android.gms:play-services-analytics:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40e59a08555bc1ac04c4b956ef09e09b\jetified-play-services-analytics-18.0.1\AndroidManifest.xml:42:13-35
+258            android:exported="false"
+258-->[com.google.android.gms:play-services-analytics:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40e59a08555bc1ac04c4b956ef09e09b\jetified-play-services-analytics-18.0.1\AndroidManifest.xml:43:13-37
+259            android:permission="android.permission.BIND_JOB_SERVICE" />
+259-->[com.google.android.gms:play-services-analytics:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\40e59a08555bc1ac04c4b956ef09e09b\jetified-play-services-analytics-18.0.1\AndroidManifest.xml:44:13-69
+260
+261        <activity
+261-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bc044eaa981871f9b7fcad94e70d086d\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+262            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+262-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bc044eaa981871f9b7fcad94e70d086d\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+263            android:exported="false"
+263-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bc044eaa981871f9b7fcad94e70d086d\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+264            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+264-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\bc044eaa981871f9b7fcad94e70d086d\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+265
+266        <provider
+266-->[com.google.firebase:firebase-common:20.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\236d82f5efb4a881023b034817c8d073\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+267            android:name="com.google.firebase.provider.FirebaseInitProvider"
+267-->[com.google.firebase:firebase-common:20.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\236d82f5efb4a881023b034817c8d073\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+268            android:authorities="com.routeassociation.firebaseinitprovider"
+268-->[com.google.firebase:firebase-common:20.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\236d82f5efb4a881023b034817c8d073\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+269            android:directBootAware="true"
+269-->[com.google.firebase:firebase-common:20.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\236d82f5efb4a881023b034817c8d073\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+270            android:exported="false"
+270-->[com.google.firebase:firebase-common:20.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\236d82f5efb4a881023b034817c8d073\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+271            android:initOrder="100" />
+271-->[com.google.firebase:firebase-common:20.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\236d82f5efb4a881023b034817c8d073\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+272
+273        <receiver
+273-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
+274            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+274-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
+275            android:enabled="true"
+275-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
+276            android:exported="false" >
+276-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
+277        </receiver>
+278
+279        <service
+279-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
+280            android:name="com.google.android.gms.measurement.AppMeasurementService"
+280-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
+281            android:enabled="true"
+281-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
+282            android:exported="false" />
+282-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
+283        <service
+283-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
+284            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+284-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
+285            android:enabled="true"
+285-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
+286            android:exported="false"
+286-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
+287            android:permission="android.permission.BIND_JOB_SERVICE" />
+287-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\d113723ee54fcb673db111194fdc2d2a\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
+288
+289        <provider
+289-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\75a6491833008dc5ee3402d4f3e27d14\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+290            android:name="androidx.startup.InitializationProvider"
+290-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\75a6491833008dc5ee3402d4f3e27d14\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+291            android:authorities="com.routeassociation.androidx-startup"
+291-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\75a6491833008dc5ee3402d4f3e27d14\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+292            android:exported="false" >
+292-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\75a6491833008dc5ee3402d4f3e27d14\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+293            <meta-data
+293-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\75a6491833008dc5ee3402d4f3e27d14\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+294                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+294-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\75a6491833008dc5ee3402d4f3e27d14\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+295                android:value="androidx.startup" />
+295-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\75a6491833008dc5ee3402d4f3e27d14\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+296            <meta-data
+296-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b2dc8ba0a57a453f505279e790ba4c6e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+297                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+297-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b2dc8ba0a57a453f505279e790ba4c6e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+298                android:value="androidx.startup" />
+298-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b2dc8ba0a57a453f505279e790ba4c6e\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+299        </provider>
+300
+301        <service
+301-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1b5ac3e09ab31c6fb9f946f1e3db1db8\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:29:9-35:19
+302            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+302-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1b5ac3e09ab31c6fb9f946f1e3db1db8\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:30:13-103
+303            android:exported="false" >
+303-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1b5ac3e09ab31c6fb9f946f1e3db1db8\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:31:13-37
+304            <meta-data
+304-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1b5ac3e09ab31c6fb9f946f1e3db1db8\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:32:13-34:39
+305                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+305-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1b5ac3e09ab31c6fb9f946f1e3db1db8\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:33:17-94
+306                android:value="cct" />
+306-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1b5ac3e09ab31c6fb9f946f1e3db1db8\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:34:17-36
+307        </service>
+308        <service
+308-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8fdb8822ec064192ca7178c68132308d\jetified-transport-runtime-3.1.6\AndroidManifest.xml:26:9-30:19
+309            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+309-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8fdb8822ec064192ca7178c68132308d\jetified-transport-runtime-3.1.6\AndroidManifest.xml:27:13-117
+310            android:exported="false"
+310-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8fdb8822ec064192ca7178c68132308d\jetified-transport-runtime-3.1.6\AndroidManifest.xml:28:13-37
+311            android:permission="android.permission.BIND_JOB_SERVICE" >
+311-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8fdb8822ec064192ca7178c68132308d\jetified-transport-runtime-3.1.6\AndroidManifest.xml:29:13-69
+312        </service>
+313
+314        <receiver
+314-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8fdb8822ec064192ca7178c68132308d\jetified-transport-runtime-3.1.6\AndroidManifest.xml:32:9-34:40
+315            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+315-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8fdb8822ec064192ca7178c68132308d\jetified-transport-runtime-3.1.6\AndroidManifest.xml:33:13-132
+316            android:exported="false" />
+316-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8fdb8822ec064192ca7178c68132308d\jetified-transport-runtime-3.1.6\AndroidManifest.xml:34:13-37
+317    </application>
+318
+319</manifest>

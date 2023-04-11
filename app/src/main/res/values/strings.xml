@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Route Manager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_camera_status">CameraStatusActivity</string>
+    <string name="title_activity_bus_stops_maps">Map</string>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/rect_shape"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/alert"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:textSize="20dp"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:text="Please Confirm"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:alpha="0.7"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey"/>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:text="Select Pickup/Drop"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:id="@+id/rgGroup"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/rbPickup"
+                    android:checked="true"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Pickup"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:id="@+id/rbDrop"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Drop"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+        </LinearLayout>
+        <TextView
+            android:text="Select Driver"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:id="@+id/txtIncidenceType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_margin="5dp"
+            android:id="@+id/lay1"
+            android:background="@drawable/button_border"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/label2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="3dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/driverSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:spinnerMode="dropdown" />
+
+            <ImageView
+                android:src="@drawable/down_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:alpha="0.7"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/grey"/>
+    <LinearLayout
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+
+            android:textColor="@color/white"
+            android:text="Change Driver"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/btnChange"
+            android:background="@drawable/rect"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+
+        <Button
+            android:textColor="@color/white"
+            android:text="Call"
+            android:visibility="gone"
+            android:id="@+id/btnCall"
+            android:background="@drawable/rect"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+

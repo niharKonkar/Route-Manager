@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+android:background="@drawable/cardview"
+    android:padding="15dp"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:weightSum="2"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0.3"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgCircle"
+                android:layout_gravity="center"
+                android:src="@drawable/notification"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:id="@+id/txtMessage"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginTop="2dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_gravity="right"
+                android:id="@+id/txtDate"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

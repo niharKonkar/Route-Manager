@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+    <include layout="@layout/top_bar"
+        android:id="@+id/topBar"></include>
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:orientation="vertical"
+        android:layout_below="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/txtRouteName"
+            android:textSize="20dp"
+            android:text="Route Name"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/txtVehNum"
+            android:textSize="20dp"
+            android:text="Vehicle Number"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imgSchoolBus"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/layNoRecordFound"
+        android:layout_below="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/no_record_found"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+    </LinearLayout>
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_below="@+id/lay1"
+    android:id="@+id/schoolEventRecyView"
+
+    android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+    <Button
+        android:visibility="gone"
+        android:layout_width="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:id="@+id/btnNavigate"
+        android:background="@drawable/navigation"
+        android:layout_height="40dp" />
+
+</RelativeLayout>

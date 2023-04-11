@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/rect_shape"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/txtIncDesc"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incident Description"/>
+    <TextView
+        android:id="@+id/txtIncCat"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incident Category"/>
+    <TextView
+        android:id="@+id/txtIncDate"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incident Date"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:id="@+id/txtIncVehName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Name"/>
+    <TextView
+        android:id="@+id/txtIncRouteName"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Route Name"/>
+    <TextView
+        android:id="@+id/txtIncDriverName"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Driver Name"/>
+    <TextView
+        android:id="@+id/txtIncPickDrop"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pickup Drop"/>
+    <TextView
+        android:id="@+id/txtIncKms"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kms"/>
+</LinearLayout>

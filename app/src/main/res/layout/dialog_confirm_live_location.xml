@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/rect_shape"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/alert"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:textSize="20dp"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:text="Please Confirm"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:alpha="0.7"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="serif"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Are you sure you want to track location ?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+
+        android:alpha="0.7"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/grey"/>
+    <LinearLayout
+        android:weightSum="3.5"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textColor="@color/white"
+            android:text="YES"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/btnYes"
+            android:background="@drawable/rect"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textColor="@color/white"
+            android:text="NO"
+            android:id="@+id/btnNo"
+            android:background="@drawable/rect"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "168718263329",
+    "firebase_url": "https://route-manger.firebaseio.com",
+    "project_id": "route-manger",
+    "storage_bucket": "route-manger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168718263329:android:a7676125294cb32a",
+        "android_client_info": {
+          "package_name": "com.routeassociation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168718263329-dtnknqtsptltkg12v0r8ensnqcrfb7nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZiKNqAFcVAHSz1Burf_I5B6bNDb4aKGo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

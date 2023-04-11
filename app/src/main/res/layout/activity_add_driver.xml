@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.routeassociation.AddDriverActivity">
+    <include layout="@layout/top_bar"
+        android:id="@+id/topBar"/>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Type"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_margin="5dp"
+                android:id="@+id/lay1"
+                android:background="@drawable/button_border"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginRight="3dp"
+                android:orientation="horizontal"
+                android:layout_marginEnd="3dp">
+
+                <Spinner
+                    android:id="@+id/driverTypeSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:spinnerMode="dropdown"
+                    android:layout_marginStart="5dp" />
+
+                <ImageView
+                    app:srcCompat="@drawable/down_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:text="Name"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edtDriverName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp" />
+            <TextView
+                android:text="Contact Number"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:maxLength="10"
+                android:inputType="number"
+                android:layout_margin="5dp"
+                android:id="@+id/edtDriverContactNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Address"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_margin="5dp"
+                android:id="@+id/edtDriverAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnTakePicture"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/camera"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:layout_margin="10dp"
+                android:layout_weight="2"
+                android:src="@drawable/no_image"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageView"
+                android:visibility="gone" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:layout_margin="10dp"
+                android:id="@+id/btnSave"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

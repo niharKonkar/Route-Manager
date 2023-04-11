@@ -1,0 +1,610 @@
+[
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_circle_incomplete.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/circle_incomplete.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_call.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/call.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_navigation.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/navigation.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_phone_receiver.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/phone_receiver.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_about.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/about.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_row_timeline_data.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/row_timeline_data.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_ic_iconfinder_icon_12_mail_add_314698.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/ic_iconfinder_icon_12_mail_add_314698.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_driver_unassign.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/driver_unassign.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/menu_menu_livemaps.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/menu/menu_livemaps.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_cardview.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/cardview.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_loc2.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/loc2.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_arrow_down.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/arrow_down.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_live_data.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/live_data.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_map_navigation.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/map_navigation.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_timeline.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/timeline.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_row_route_analysis.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/row_route_analysis.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_live.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_live.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_ic_iconfinder_ic_add_alert_48px_3669478.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/ic_iconfinder_ic_add_alert_48px_3669478.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_schoolbus_1.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/schoolbus_1.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_refresh.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/refresh.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_rect.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/rect.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_confirm_track_vehicle.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_confirm_track_vehicle.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_stat_placeholder.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable-xxhdpi/ic_stat_placeholder.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_send_notification.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_send_notification.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_confirm_disassociate_driver.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_confirm_disassociate_driver.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_calendar_cp.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/calendar_cp.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_maps.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_maps.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_circle_complete.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/circle_complete.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_down_arrow.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/down_arrow.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_row_routes_count.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/row_routes_count.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/menu_activity_drawer_drawer.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/menu/activity_drawer_drawer.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_confirm_disassociate_conductor.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_confirm_disassociate_conductor.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_wrong.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/wrong.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_splash.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_timeline.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_timeline.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_select_communication_details.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_select_communication_details.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_login.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/xml_provider_paths.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_compass.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/compass.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_schoolbus_2.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/schoolbus_2.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_vehicle_list.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_vehicle_list.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_upload_documents.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_upload_documents.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_bus_driver.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/bus_driver.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_rect_shape.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/rect_shape.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_search.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/search.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_timeline_options.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_timeline_options.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_upload.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/upload.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_button_background_3.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/button_background_3.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_route_details.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_route_details.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_calling.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/calling.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_ic_search_icon.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/ic_search_icon.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_back.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/back.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/menu_live.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/menu/live.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_stat_placeholder.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable-xhdpi/ic_stat_placeholder.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_logout.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_logout.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_confirm_change_driver.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_confirm_change_driver.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_notification_history.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_notification_history.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_stat_placeholder.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable-xxxhdpi/ic_stat_placeholder.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_button_background_2.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/button_background_2.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_schoolbus_3.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/schoolbus_3.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_camera_status.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_camera_status.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_alert.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/alert.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_analysis.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/analysis.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_calendar.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/calendar.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_row_location_view.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/row_location_view.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_row_incident_details.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/row_incident_details.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_camerared.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/camerared.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_main.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_system_log.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_system_log.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_logout.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/logout.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_confirm_change_maid.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_confirm_change_maid.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_set_option.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_set_option.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_confirm_call_driver_conductor.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_confirm_call_driver_conductor.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_no_image.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/no_image.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_ic_location_origin.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/ic_location_origin.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_upload_incidence.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_upload_incidence.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_location_listview.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_location_listview.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_routes_details_and_info.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_routes_details_and_info.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_row_system_log.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/row_system_log.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_choose_route.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_choose_route.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_row_live_details.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/row_live_details.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_rfid_data.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_rfid_data.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_row_show_rfid_data.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/row_show_rfid_data.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_row_notification_history.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/row_notification_history.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_rfid_data.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/rfid_data.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_confirm_live_location.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_confirm_live_location.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_curlocation.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/curlocation.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_notification_details.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_notification_details.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_incident_details.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_incident_details.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_bus_stops_get_location.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_bus_stops_get_location.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_defualt_user.jpg.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/defualt_user.jpg"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_more.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/more.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_schoolbus_4.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/schoolbus_4.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/raw_route.json.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/raw/route.json"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable-xhdpi_add_white.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable-xhdpi/add_white.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_school_busg.gif.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/school_busg.gif"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_route_count.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_route_count.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_confirm_disassociate_vehicle.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_confirm_disassociate_vehicle.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_row_routes_details.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/row_routes_details.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_row_route_association.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/row_route_association.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_bus_stops_maps.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_bus_stops_maps.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_button_border.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/button_border.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_camera.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/camera.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_maps.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/maps.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_nav_header_drawer.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/nav_header_drawer.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_button_border2.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/button_border2.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_change_driver.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_change_driver.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_ic_launcher1.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/ic_launcher1.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_add_driver.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_add_driver.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_ic_iconfinder_calendar_check_o_1608596.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/ic_iconfinder_calendar_check_o_1608596.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_bus_stop.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/bus_stop.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_right.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/right.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_new_upload_document.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_new_upload_document.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable-mdpi_ic_stat_placeholder.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable-mdpi/ic_stat_placeholder.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_dialog_choose_pick_drop_route_analysis.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/dialog_choose_pick_drop_route_analysis.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_background.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/background.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_geofence.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/geofence.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_drawer.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_drawer.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_row_route_communication_details.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/row_route_communication_details.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_row_realtimepickdrop_details.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/row_realtimepickdrop_details.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_circle_purple.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/circle_purple.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_spinner_text.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/spinner_text.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/raw_notification_sound.mp3.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/raw/notification_sound.mp3"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_up_arrow.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/up_arrow.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_content_camera_status.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/content_camera_status.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_top_bar.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/top_bar.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_real_time_pick_drop_analysis.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_real_time_pick_drop_analysis.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_upload_data.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/upload_data.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_circle_blue.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/circle_blue.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_rect_gray.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/rect_gray.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_no_record_found.jpg.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/no_record_found.jpg"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_ic_if_add_user_309049.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/ic_if_add_user_309049.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_card_view.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/card_view.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_add.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/add.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_googlemapsicon.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/googlemapsicon.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_driver_assign.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/driver_assign.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_upload_incident.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_upload_incident.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_loc1.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/loc1.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_app_bar_drawer.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/app_bar_drawer.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/raw_bus.json.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/raw/bus.json"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_live_maps.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_live_maps.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_count.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/count.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_gps_location.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/gps_location.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable-hdpi_ic_stat_placeholder.png.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable-hdpi/ic_stat_placeholder.png"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/layout_activity_driver_info.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/layout/activity_driver_info.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_ic_files.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/ic_files.xml"
+    },
+    {
+        "merged": "/Users/techlead/AndroidStudioProjects/route-association/app/build/intermediates/res/merged/release/drawable_notification.xml.flat",
+        "source": "/Users/techlead/AndroidStudioProjects/route-association/app/src/main/res/drawable/notification.xml"
+    }
+]
