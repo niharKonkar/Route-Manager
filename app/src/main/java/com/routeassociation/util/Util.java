@@ -4,6 +4,7 @@ package com.routeassociation.util;
 import android.content.Context;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.net.URLEncoder;
@@ -79,6 +80,37 @@ public class Util {
         }
 
         return array;
+    }
+
+    //get attendance details
+    public String attendanceList(int org, int dep, String dayId, int gegId, String pickupDrop){
+        StringBuilder builder = new StringBuilder();
+        builder.append(strMainUrl);
+        builder.append("rfidAsset/getRfidAssetsByRoute?");
+        builder.append("orgId=").append(org);
+        builder.append("&depId=").append(dep);
+        builder.append("&dateFrom=").append(dayId);
+        builder.append("&gegId=").append(gegId);
+        builder.append("&pickupDrop=").append(pickupDrop);
+
+        Webservice webservice = new Webservice(builder.toString(),context);
+        webservice.start();
+
+        try {
+            webservice.join(30000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        String jsonResponse = null;
+        try {
+//            JSONArray mainArray = new JSONArray(webservice.output);
+//            jsonArray = mainArray.getJSONObject(1).getJSONArray("data");
+            jsonResponse = webservice.output;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return jsonResponse;
     }
 
     //add driver

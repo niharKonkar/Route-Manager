@@ -1,610 +1,686 @@
 [
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_schoolbus_2.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\schoolbus_2.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_files.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_files.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logout.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\logout.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_up_arrow.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\up_arrow.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_border2.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\button_border2.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable-hdpi_route.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable-hdpi\\route.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_logout.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_logout.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_content_camera_status.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\content_camera_status.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_notification_history.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\row_notification_history.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_back.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\back.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loc1.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\loc1.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_system_log.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_system_log.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_driver_unassign.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\driver_unassign.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_border.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\button_border.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_logout.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_logout.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_refresh.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\refresh.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_row_notification_history.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\row_notification_history.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_upload_data.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\upload_data.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_button_background_3.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\button_background_3.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_defualt_user.jpg.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\defualt_user.jpg"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable-xxhdpi_ic_stat_placeholder.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable-xxhdpi\\ic_stat_placeholder.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_blue.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\circle_blue.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_live_data.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\live_data.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\rect.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_row_timeline_data.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\row_timeline_data.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_compass.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\compass.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_timeline.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_timeline.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_maps.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_geofence.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\geofence.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\raw_bus.json.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\raw\\bus.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\raw_route.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\raw\\route.json"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_route_details.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_route_details.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_baseline_clear_24.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_baseline_clear_24.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_timeline.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\timeline.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_drawer.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\nav_header_drawer.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_schoolbus_2.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\schoolbus_2.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_schoolbus_1.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\schoolbus_1.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_baseline_check_24.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_baseline_check_24.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_incident_details.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\row_incident_details.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable-xxxhdpi_ic_stat_placeholder.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable-xxxhdpi\\ic_stat_placeholder.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_camera_status.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_camera_status.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_loc1.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\loc1.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_view.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\card_view.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_top_bar.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\top_bar.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_live_maps.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_live_maps.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_circle_complete.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\circle_complete.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_confirm_change_maid.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_confirm_change_maid.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_location_origin.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_location_origin.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cardview.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\cardview.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_baseline_check_circle_24.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_baseline_check_circle_24.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_show_rfid_data.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\row_show_rfid_data.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_button_border2.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\button_border2.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_select_communication_details.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_select_communication_details.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_if_add_user_309049.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_if_add_user_309049.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher1.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\ic_launcher1.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_row_location_view.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\row_location_view.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_upload_document.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_new_upload_document.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_circle_purple.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\circle_purple.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_choose_route.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_choose_route.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable-hdpi_ic_stat_placeholder.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable-hdpi\\ic_stat_placeholder.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_incident_details.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_incident_details.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_maps.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_maps.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_incident_details.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_incident_details.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_right.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\right.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_row_routes_count.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\row_routes_count.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_routes_count.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\row_routes_count.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_if_add_user_309049.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\ic_if_add_user_309049.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_analysis.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\analysis.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calling.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\calling.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_row_route_analysis.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\row_route_analysis.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_shape.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\rect_shape.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_schoolbus_1.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\schoolbus_1.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_driver.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_add_driver.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_row_realtimepickdrop_details.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\row_realtimepickdrop_details.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_gray.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\rect_gray.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_confirm_disassociate_vehicle.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_confirm_disassociate_vehicle.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_driver_info.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_driver_info.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_calendar.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\calendar.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_confirm_change_driver.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_confirm_change_driver.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_route_count.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_route_count.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\raw_notification_sound.mp3.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\raw\\notification_sound.mp3"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_vehicle_list.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_vehicle_list.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_set_option.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_set_option.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_location_view.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\row_location_view.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_cardview.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\cardview.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bus_driver.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\bus_driver.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_row_route_association.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\row_route_association.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_purple.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\circle_purple.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable-hdpi_p.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable-hdpi\\p.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_drawer.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_drawer.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_timeline.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\timeline.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_icon.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\ic_search_icon.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_rfid_data.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\rfid_data.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_driver_assign.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\driver_assign.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_add_driver.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_add_driver.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_upload_incident.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_upload_incident.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_launcher1.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_launcher1.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bus_stops_maps.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_bus_stops_maps.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_schoolbus_4.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\schoolbus_4.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_routes_details_and_info.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_routes_details_and_info.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_send_notification.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_send_notification.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\raw_route.json.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\raw\\route.json"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_call.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\call.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_stat_placeholder.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable-xxhdpi\\ic_stat_placeholder.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_row_route_communication_details.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\row_route_communication_details.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_top_bar.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\top_bar.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_alert.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\alert.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loc2.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\loc2.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_button_background_2.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\button_background_2.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_routes_details.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\row_routes_details.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_notification_history.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_notification_history.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\back.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_phone_receiver.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\phone_receiver.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_count.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\count.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_confirm_call_driver_conductor.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_confirm_call_driver_conductor.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\search.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_real_time_pick_drop_analysis.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_real_time_pick_drop_analysis.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\add.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_row_show_rfid_data.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\row_show_rfid_data.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_rfid_data.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_rfid_data.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable-hdpi_a.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable-hdpi\\a.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_live_details.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\row_live_details.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_upload_incident.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_upload_incident.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_camera_status.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\content_camera_status.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_confirm_change_maid.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_confirm_change_maid.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_system_log.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\row_system_log.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_googlemapsicon.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\googlemapsicon.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_real_time_pick_drop_analysis.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_real_time_pick_drop_analysis.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_nav_header_drawer.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\nav_header_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bus_stop.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\bus_stop.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_rect_shape.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\rect_shape.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_timeline.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_timeline.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_notification_details.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_notification_details.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\menu_live.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\menu\\live.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable-mdpi_ic_stat_placeholder.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable-mdpi\\ic_stat_placeholder.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_system_log.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_system_log.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_bus_driver.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\bus_driver.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_navigation.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\navigation.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\menu_menu_livemaps.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\menu\\menu_livemaps.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background_3.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\button_background_3.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\xml\\provider_paths.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_confirm_disassociate_conductor.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_confirm_disassociate_conductor.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_circle_blue.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\circle_blue.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_confirm_track_vehicle.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_confirm_track_vehicle.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_row_system_log.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\row_system_log.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\menu_activity_drawer_drawer.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\menu\\activity_drawer_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_about.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\about.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_more.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\more.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gps_location.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\gps_location.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_upload.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\upload.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_down.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\arrow_down.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_iconfinder_ic_add_alert_48px_3669478.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_iconfinder_ic_add_alert_48px_3669478.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_maps.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\maps.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_rect.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\rect.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_stat_placeholder.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_stat_placeholder.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_map_navigation.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\map_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_geofence.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\geofence.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_wrong.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\wrong.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_live_data.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\live_data.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_choose_pick_drop_route_analysis.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_choose_pick_drop_route_analysis.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_map_navigation.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\map_navigation.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_baseline_location_city_24.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_baseline_location_city_24.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bus_stops_get_location.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_bus_stops_get_location.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_upload_data.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\upload_data.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_confirm_disassociate_vehicle.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_confirm_disassociate_vehicle.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\raw_bus.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\raw\\bus.json"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_location_listview.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_location_listview.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_search_icon.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_search_icon.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_livemaps.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\menu\\menu_livemaps.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_right.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\right.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_files.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\ic_files.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_iconfinder_icon_12_mail_add_314698.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_iconfinder_icon_12_mail_add_314698.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wrong.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\wrong.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_bus_stops_get_location.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_bus_stops_get_location.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_image.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\no_image.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_upload_incidence.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_upload_incidence.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_upload_incidence.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_upload_incidence.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_card_view.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\card_view.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_list_view.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\list_view.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_down_arrow.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\down_arrow.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_driver_info.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_driver_info.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_timeline_options.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_timeline_options.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_bus_stop.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\bus_stop.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_record_found.jpg.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\no_record_found.jpg"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable-xhdpi_add_white.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable-xhdpi\\add_white.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_analysis.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\analysis.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_add.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\add.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_iconfinder_icon_12_mail_add_314698.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\ic_iconfinder_icon_12_mail_add_314698.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_location_listview.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_location_listview.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_upload.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\upload.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_confirm_live_location.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_confirm_live_location.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calendar.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\calendar.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_refresh.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\refresh.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_confirm_call_driver_conductor.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_confirm_call_driver_conductor.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable-hdpi_warning.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable-hdpi\\warning.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_choose_pick_drop_route_analysis.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_choose_pick_drop_route_analysis.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\menu_live.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\menu\\live.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_iconfinder_ic_add_alert_48px_3669478.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\ic_iconfinder_ic_add_alert_48px_3669478.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_defualt_user.jpg.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\defualt_user.jpg"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\xml\\provider_paths.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_routes_details_and_info.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_routes_details_and_info.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background_2.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\button_background_2.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_app_bar_drawer.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\app_bar_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_schoolbus_4.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\schoolbus_4.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_logout.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\logout.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_upload_documents.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_upload_documents.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_navigation.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\navigation.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_new_upload_document.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_new_upload_document.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_vehicle_list.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_vehicle_list.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable-hdpi_graduate.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable-hdpi\\graduate.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_timeline_data.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\row_timeline_data.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_count.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\count.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_driver_unassign.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\driver_unassign.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_no_record_found.jpg.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\no_record_found.jpg"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location_origin.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\ic_location_origin.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_set_option.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_set_option.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_route_count.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_route_count.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_arrow_down.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\arrow_down.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_white.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable-xhdpi\\add_white.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_iconfinder_calendar_check_o_1608596.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_iconfinder_calendar_check_o_1608596.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_route_communication_details.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\row_route_communication_details.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_camerared.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\camerared.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_live.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_live.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_baseline_cancel_24.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_baseline_cancel_24.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_search.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\search.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\background.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_choose_route.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_choose_route.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_incomplete.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\circle_incomplete.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_realtimepickdrop_details.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\row_realtimepickdrop_details.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_camera_status.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_camera_status.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_more.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\more.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_row_incident_details.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\row_incident_details.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_call.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\call.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_bus_stops_maps.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_bus_stops_maps.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_curlocation.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\curlocation.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\ic_baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_school_busg.gif.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\school_busg.gif"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_confirm_disassociate_conductor.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_confirm_disassociate_conductor.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camera.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\camera.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable-hdpi_student.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable-hdpi\\student.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_route_analysis.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\row_route_analysis.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_no_image.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\no_image.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_stat_placeholder.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable-hdpi\\ic_stat_placeholder.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_row_live_details.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\row_live_details.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_route_details.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_route_details.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_schoolbus_3.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\schoolbus_3.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_down_arrow.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\down_arrow.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_driver.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_change_driver.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_live.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_live.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notification_history.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_notification_history.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_curlocation.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\curlocation.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_up_arrow.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\up_arrow.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_timeline_options.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_timeline_options.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_stat_placeholder.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable-xhdpi\\ic_stat_placeholder.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_show_studattendancelist.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\show_studattendancelist.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_drawer_drawer.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\menu\\activity_drawer_drawer.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calendar_cp.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\calendar_cp.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_camera.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\camera.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_stat_placeholder.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable-mdpi\\ic_stat_placeholder.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_button_border.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\button_border.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rfid_data.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\rfid_data.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_spinner_text.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\spinner_text.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_confirm_disassociate_driver.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_confirm_disassociate_driver.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alert.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\alert.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_live_maps.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_live_maps.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_drawer.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\app_bar_drawer.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable-xhdpi_ic_stat_placeholder.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable-xhdpi\\ic_stat_placeholder.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camerared.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\camerared.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_upload_documents.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_upload_documents.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_send_notification.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_send_notification.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_about.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\about.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_text.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\spinner_text.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_loc2.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\loc2.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_complete.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\circle_complete.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_confirm_disassociate_driver.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_confirm_disassociate_driver.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\notification.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notification_details.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\activity_notification_details.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_change_driver.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_change_driver.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_confirm_live_location.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\dialog_confirm_live_location.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_rect_gray.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\rect_gray.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_route_association.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\layout\\row_route_association.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_schoolbus_3.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\schoolbus_3.png"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_confirm_change_driver.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_confirm_change_driver.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_googlemapsicon.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\googlemapsicon.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_rfid_data.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_rfid_data.xml"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone_receiver.png.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\phone_receiver.png"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\raw_student_attendance.json.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\raw\\student_attendance.json"
     },
     {
-        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_iconfinder_calendar_check_o_1608596.xml.flat",
-        "source": "C:\\Users\\HP\\AndroidStudioProjects\\techleadmobileprojects-route-manager-404681986c89\\app\\src\\main\\res\\drawable\\ic_iconfinder_calendar_check_o_1608596.xml"
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_drawer.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_gps_location.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\gps_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_background.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_dialog_confirm_track_vehicle.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\dialog_confirm_track_vehicle.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_school_busg.gif.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\school_busg.gif"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_routeassociation.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\routeassociation.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\raw_notification_sound.mp3.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\raw\\notification_sound.mp3"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_circle_incomplete.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\circle_incomplete.xml"
+    },
+    {
+        "merged": "com.routeassociation.app-merged_res-40:/layout_activity_routes_details_and_info.xml.flat",
+        "source": "com.routeassociation.app-main-42:/layout/activity_routes_details_and_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_row_routes_details.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\row_routes_details.xml"
+    },
+    {
+        "merged": "com.routeassociation.app-merged_res-40:/layout_activity_attendance_list_details.xml.flat",
+        "source": "com.routeassociation.app-main-42:/layout/activity_attendance_list_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_maps.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\maps.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_calling.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\calling.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_select_communication_details.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_select_communication_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_compass.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\compass.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_notification.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\layout_activity_attendance_list_details.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\layout\\activity_attendance_list_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_driver_assign.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\driver_assign.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-merged_res-40:\\drawable_calendar_cp.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.4\\com.routeassociation.app-main-42:\\drawable\\calendar_cp.xml"
     }
 ]

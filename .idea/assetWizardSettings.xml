@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_search_black_24dp.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/location_city/baseline_location_city_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,9 +28,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="b71c1c" />
-                            <entry key="outputName" value="search" />
-                            <entry key="sourceFile" value="$USER_HOME$" />
+                            <entry key="color" value="ffffff" />
+                            <entry key="outputName" value="ic_baseline_location_city_24" />
+                            <entry key="sourceFile" value="C:\Users\HP" />
                           </map>
                         </option>
                       </PersistentState>

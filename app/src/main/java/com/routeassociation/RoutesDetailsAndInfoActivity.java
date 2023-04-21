@@ -1,12 +1,7 @@
 package com.routeassociation;
 
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.core.app.ActivityCompat;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -15,23 +10,18 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.Uri;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -40,7 +30,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.material.navigation.NavigationView;
 import com.routeassociation.adapter.RoutesDetailsRecyclerAdapter;
 import com.routeassociation.pojo.CheckInternet;
 import com.routeassociation.pojo.RouteDetails;
@@ -75,6 +64,8 @@ public class RoutesDetailsAndInfoActivity extends AppCompatActivity {
     private String depName;
     private TextView departmentText;
     private LinearLayout departmentSelectionLayout;
+    private LinearLayout routeDataLayout;
+    private LinearLayout showErrorLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,6 +96,8 @@ public class RoutesDetailsAndInfoActivity extends AppCompatActivity {
                 recycler_view = (RecyclerView) findViewById(R.id.recycler_view);
                 depSpinner = findViewById(R.id.depSpinner);
                 departmentSelectionLayout = findViewById(R.id.departmentSelectionLayout);
+                routeDataLayout = (LinearLayout) findViewById(R.id.routeDataLayout);
+                showErrorLayout = (LinearLayout) findViewById(R.id.errorLayout);
                 edtSearch = (EditText) findViewById(R.id.edtSearch);
                 dialog = new Dialog(context);
 
@@ -338,7 +331,10 @@ public class RoutesDetailsAndInfoActivity extends AppCompatActivity {
             try {
                 progDailog.dismiss();
 
-                if (response != null) {
+                if (response != null && response.length() > 0) {
+
+                    routeDataLayout.setVisibility(View.VISIBLE);
+                    showErrorLayout.setVisibility(View.GONE);
 
                     routeDetailslist.clear();
 
@@ -382,10 +378,14 @@ public class RoutesDetailsAndInfoActivity extends AppCompatActivity {
                     recycler_view.setAdapter(adapter2);
 
                 } else {
+                    showErrorLayout.setVisibility(View.VISIBLE);
+                    routeDataLayout.setVisibility(View.GONE);
                     Toast.makeText(context, "Route details not found !", Toast.LENGTH_SHORT).show();
                     return;
                 }
             } catch (Exception e) {
+                showErrorLayout.setVisibility(View.VISIBLE);
+                routeDataLayout.setVisibility(View.GONE);
                 e.printStackTrace();
             }
         }

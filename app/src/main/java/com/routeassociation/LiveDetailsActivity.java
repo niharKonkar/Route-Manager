@@ -1,15 +1,18 @@
 package com.routeassociation;
 
-import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
+import android.os.AsyncTask;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
@@ -17,7 +20,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
@@ -25,6 +27,7 @@ import android.view.animation.Animation;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -34,8 +37,8 @@ import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.routeassociation.adapter.LiveRecyAdapter;
 import com.routeassociation.pojo.BusTypeDetails;
 import com.routeassociation.pojo.CheckInternet;
-import com.routeassociation.pojo.DriverTypeDetails;
 import com.routeassociation.pojo.GpsTransactionLive;
+import com.routeassociation.util.Constants;
 import com.routeassociation.util.Util;
 
 import org.json.JSONArray;
@@ -90,6 +93,13 @@ public class LiveDetailsActivity extends AppCompatActivity {
     private ArrayList<GpsTransactionLive> offList = new ArrayList<GpsTransactionLive>();
     private boolean isInfinityFleet = false;
     private RecyclerView recyView;
+    private ProgressDialog progDailog;
+    private String[] departments;
+    private int[] depIds;
+    private Util util;
+    private int tempSelectedDept = 0;
+    private int selectedDept = 0;
+    private int departmentId;
 
     public boolean networkState() {
         ConnectivityManager manager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -131,6 +141,49 @@ public class LiveDetailsActivity extends AppCompatActivity {
             toolbar.setTitle("Live Data");
             toolbar.setTitleTextColor(Color.WHITE);
 
+            ImageButton depImageButton = toolbar.findViewById(R.id.depImgBtn);
+            depImageButton.setOnClickListener(v -> {
+                if (departments != null && departments.length > 0) {
+
+                    AlertDialog.Builder alert = new AlertDialog.Builder(context);
+                    alert.setTitle("Select Department");
+
+                    String[] list = {"All"};
+                    String[] departmentList = new String[list.length + departments.length];
+
+                    // copy the separate arrays into the combined array
+                    System.arraycopy(list, 0, departmentList, 0, list.length);
+                    System.arraycopy(departments, 0, departmentList, list.length, departments.length);
+
+                    alert.setSingleChoiceItems(departmentList, selectedDept, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            if (which == 0) {
+                                departmentId = 0;
+                                tempSelectedDept = which;
+                            } else {
+                                departmentId = depIds[which - 1];
+                                tempSelectedDept = which;
+                            }
+                        }
+                    });
+
+                    alert.setPositiveButton("OK", (dialog, which) -> {
+                        if (departmentId != depId) {
+                            depId = departmentId;
+                            selectedDept = tempSelectedDept;
+                            fetchAndShowData();
+                        }
+                    });
+
+                    alert.setNegativeButton("Cancel", null);
+
+                    AlertDialog show = alert.create();
+                    show.show();
+
+                }
+            });
+
             setSupportActionBar(toolbar);
             if (getSupportActionBar() != null) {
                 getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -158,7 +211,7 @@ public class LiveDetailsActivity extends AppCompatActivity {
 
             JSONArray jsonArray = new JSONArray(params);
             JSONObject jsonObject = jsonArray.getJSONObject(0);
-            String status = jsonObject.getString("status");
+            String status = jsonObject.getString(Constants.responseStatus);
             if (status.equals("SUCCESS")) {
                 JSONObject jsonObject1 = jsonArray.getJSONObject(1);
 
@@ -168,8 +221,16 @@ public class LiveDetailsActivity extends AppCompatActivity {
                 usrId = jsonObject2.getInt("usrId");
                 ugpId = jsonObject2.getInt("ugpId");
                 orgId = jsonObject2.getInt("orgId");
-                depId = jsonObject2.getInt("depId");
                 rasId = 0;
+
+                if (ugpId == 2){
+                    depId = 0;
+                    depImageButton.setVisibility(View.VISIBLE);
+
+                }else {
+                    depId = jsonObject2.getInt("depId");
+                    depImageButton.setVisibility(View.GONE);
+                }
 
             }
         } catch (Exception e) {
@@ -186,6 +247,9 @@ public class LiveDetailsActivity extends AppCompatActivity {
 
         //get search edit text reference
         searchText = findViewById(R.id.searchText);
+
+        //get util class reference
+        util = new Util(context);
 
         busTypeSpinner = findViewById(R.id.busTypeSpinner);
         final ArrayList<BusTypeDetails> busTypeDetailsArrayList = new ArrayList<>();
@@ -277,6 +341,13 @@ public class LiveDetailsActivity extends AppCompatActivity {
                 //you can use runnable postDelayed like 500 ms to delay search text
             }
         });
+
+        if (ugpId == 2) {
+            //LoadDepartment AsyncTask
+            new LoadDepartment().execute();
+        } else {
+            fetchAndShowData();
+        }
 
         timer = new Timer();
         timer.scheduleAtFixedRate(new TimerTask() {
@@ -371,7 +442,7 @@ public class LiveDetailsActivity extends AppCompatActivity {
         } catch (Exception e) {
             String status = "Data not available.";
             try {
-                status = jsonObject.getString("status");
+                status = jsonObject.getString(Constants.responseStatus);
             } catch (Exception e1) {
                 // Do nothing
             }
@@ -524,123 +595,133 @@ public class LiveDetailsActivity extends AppCompatActivity {
 
     public void loadData() {
 
-        if (networkState() == false) {
-            Toast.makeText(this, "No Internet Connection !!", Toast.LENGTH_LONG).show();
+        if (!networkState()) {
+            runOnUiThread(new Runnable() {
+                public void run() {
+
+                    Toast.makeText(context, "No Internet Connection !!", Toast.LENGTH_LONG).show();
+                }
+            });
             return;
         }
 
         Util util = new Util(context);
 
-
         JSONArray array;
-        if (params.startsWith("TOKEN")) {
-            String[] strs = params.split(":");
-            String token = strs[1];
+//        if (params.startsWith("TOKEN")) {
+//            String[] strs = params.split(":");
+//            String token = strs[1];
+//
+//            array = util.getTokenLiveData(token);
+//
+//        } else {
+//            // Normal Operation | User Login
+//
+////            if (ugpId == 1 || ugpId == 2)
+////                depId = 0;
+//
+//            array = util.getLiveData(orgId, depId);
+//        }
 
-            array = util.getTokenLiveData(token);
+        array = util.getLiveData(orgId, depId);
 
-        } else {
-            // Normal Operation | User Login
+        if (array != null && array.length() > 0) {
 
-            if (ugpId == 1 || ugpId == 2)
-                depId = 0;
+            liveList.clear();
+            runningList.clear();
+            idleList.clear();
+            gpsCutList.clear();
+            offList.clear();
 
-            array = util.getLiveData(orgId, depId);
-        }
+            gpsCutoff = 0;
+            running = 0;
+            stationary = 0;
+            off = 0;
 
-
-        liveList.clear();
-        runningList.clear();
-        idleList.clear();
-        gpsCutList.clear();
-        offList.clear();
-
-        gpsCutoff = 0;
-        running = 0;
-        stationary = 0;
-        off = 0;
-
-        for (int i = 0; i < array.length(); i++) {
-            try {
-                GpsTransactionLive live = new GpsTransactionLive();
-                live.setGpsLat(array.getJSONObject(i).get("Lat").toString());
-                live.setGpsLng(array.getJSONObject(i).get("Lng").toString());
-                live.setGpsTimeStamp(array.getJSONObject(i).get("Timestamp").toString());
-                live.setVehNumber(array.getJSONObject(i).get("VehNumber").toString());
-                live.setSpeed(array.getJSONObject(i).get("Speed").toString());
-                live.setLocation(array.getJSONObject(i).get("Location").toString());
-                live.setVehName(array.getJSONObject(i).get("VehName").toString());
-                live.setViolation(array.getJSONObject(i).get("Violations").toString());
-                live.setVehId(Integer.valueOf(array.getJSONObject(i).get("VehId").toString()));
-                String stp = array.getJSONObject(i).get("Stoppage").toString();
+            for (int i = 0; i < array.length(); i++) {
                 try {
-                    Double d = Double.parseDouble(stp);
-                    stp = String.valueOf(d.intValue());
-                } catch (Exception e) {
+                    GpsTransactionLive live = new GpsTransactionLive();
+                    live.setGpsLat(array.getJSONObject(i).get("Lat").toString());
+                    live.setGpsLng(array.getJSONObject(i).get("Lng").toString());
+                    live.setGpsTimeStamp(array.getJSONObject(i).get("Timestamp").toString());
+                    live.setVehNumber(array.getJSONObject(i).get("VehNumber").toString());
+                    live.setSpeed(array.getJSONObject(i).get("Speed").toString());
+                    live.setLocation(array.getJSONObject(i).get("Location").toString());
+                    live.setVehName(array.getJSONObject(i).get("VehName").toString());
+                    live.setViolation(array.getJSONObject(i).get("Violations").toString());
+                    live.setVehId(Integer.valueOf(array.getJSONObject(i).get("VehId").toString()));
+                    String stp = array.getJSONObject(i).get("Stoppage").toString();
+                    try {
+                        Double d = Double.parseDouble(stp);
+                        stp = String.valueOf(d.intValue());
+                    } catch (Exception e) {
 
-                }
-
-                try {
-                    live.setRouteName(array.getJSONObject(i).get("RouteName").toString());
-                    live.setRouteType(array.getJSONObject(i).get("RouteType").toString());
-
-                } catch (Exception e) {
-
-                }
-
-                live.setStoppage(stp);
-                live.setStatus(array.getJSONObject(i).get("Status").toString());
-                liveList.add(live);
-
-                Date dtTimestamp;
-                SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
-                try {
-                    dtTimestamp = format.parse(live.getGpsTimeStamp());
-                } catch (Exception e) {
-                    dtTimestamp = new Date();
-                }
-
-                long diff = (new Date()).getTime() - dtTimestamp.getTime();
-                diff = diff / 3600000;
-                if (diff > 4) {
-                    offList.add(live);
-                    off++;
-                } else {
-                    int speed = Integer.valueOf(live.getSpeed());
-                    if (speed == -1 || live.getLocation().trim().equals("(9999.9999,9999.9999)")) {
-                        gpsCutList.add(live);
-                        gpsCutoff++;
-                    } else if (speed == 0) {
-                        idleList.add(live);
-                        stationary++;
-                    } else {
-                        runningList.add(live);
-                        running++;
                     }
+
+                    try {
+                        live.setRouteName(array.getJSONObject(i).get("RouteName").toString());
+                        live.setRouteType(array.getJSONObject(i).get("RouteType").toString());
+
+                    } catch (Exception e) {
+
+                    }
+
+                    live.setStoppage(stp);
+                    live.setStatus(array.getJSONObject(i).get("Status").toString());
+                    liveList.add(live);
+
+                    Date dtTimestamp;
+                    SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+                    try {
+                        dtTimestamp = format.parse(live.getGpsTimeStamp());
+                    } catch (Exception e) {
+                        dtTimestamp = new Date();
+                    }
+
+                    long diff = (new Date()).getTime() - dtTimestamp.getTime();
+                    diff = diff / 3600000;
+                    if (diff > 4) {
+                        offList.add(live);
+                        off++;
+                    } else {
+                        int speed = Integer.valueOf(live.getSpeed());
+                        if (speed == -1 || live.getLocation().trim().equals("(9999.9999,9999.9999)")) {
+                            gpsCutList.add(live);
+                            gpsCutoff++;
+                        } else if (speed == 0) {
+                            idleList.add(live);
+                            stationary++;
+                        } else {
+                            runningList.add(live);
+                            running++;
+                        }
+                    }
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
                 }
-
-            } catch (JSONException e) {
-                e.printStackTrace();
             }
+
+            runOnUiThread(new Runnable() {
+                public void run() {
+
+                    // Set Status Objects
+                    TextView loff = (TextView) findViewById(R.id.liveOff);
+                    loff.setText("Off : " + String.valueOf(off));
+                    TextView lGpsoff = (TextView) findViewById(R.id.liveGpsOff);
+                    lGpsoff.setText("GPS Cut : " + String.valueOf(gpsCutoff));
+                    TextView lStationary = (TextView) findViewById(R.id.liveStationary);
+                    lStationary.setText("Idle : " + String.valueOf(stationary));
+                    TextView lRunning = (TextView) findViewById(R.id.liveRunning);
+                    lRunning.setText("Running : " + String.valueOf(running));
+
+                    ArrayList<GpsTransactionLive> originalVehList = getLiveVehicleList();
+                    setBusListToRView(originalVehList);
+                }
+            });
+        } else {
+            runOnUiThread(() -> Toast.makeText(context, "Vehicle Details not found...", Toast.LENGTH_SHORT).show());
         }
-
-        runOnUiThread(new Runnable() {
-            public void run() {
-
-                // Set Status Objects
-                TextView loff = (TextView) findViewById(R.id.liveOff);
-                loff.setText("Off : " + String.valueOf(off));
-                TextView lGpsoff = (TextView) findViewById(R.id.liveGpsOff);
-                lGpsoff.setText("GPS Cut : " + String.valueOf(gpsCutoff));
-                TextView lStationary = (TextView) findViewById(R.id.liveStationary);
-                lStationary.setText("Idle : " + String.valueOf(stationary));
-                TextView lRunning = (TextView) findViewById(R.id.liveRunning);
-                lRunning.setText("Running : " + String.valueOf(running));
-
-                ArrayList<GpsTransactionLive> originalVehList = getLiveVehicleList();
-                setBusListToRView(originalVehList);
-            }
-        });
     }
 
     @Override
@@ -706,5 +787,68 @@ public class LiveDetailsActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public class LoadDepartment extends AsyncTask<String, String, String> {
+        private String response;
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            progDailog = new ProgressDialog(context);
+            progDailog.setMessage("Loading...");
+            progDailog.setIndeterminate(false);
+            progDailog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+            progDailog.setCancelable(false);
+            progDailog.show();
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+            try {
+                progDailog.dismiss();
+
+                if (response == null || response.isEmpty()) {
+                    Toast.makeText(getApplicationContext(), "Unable to parse...", Toast.LENGTH_LONG).show();
+                    return;
+                }
+
+                JSONArray array = new JSONArray(response);
+                JSONObject statusObj = array.getJSONObject(0);
+                JSONObject data = array.getJSONObject(1);
+
+                String status = statusObj.getString(Constants.responseStatus);
+                if (!status.equalsIgnoreCase("SUCCESS")) {
+                    Toast.makeText(getApplicationContext(), data.getString("data"), Toast.LENGTH_LONG).show();
+                    return;
+                }
+
+                JSONArray jsonArray = data.getJSONArray("data");
+                int length = jsonArray.length();
+                departments = new String[length];
+                depIds = new int[length];
+                for (int i = 0; i < length; i++) {
+                    JSONObject jo = jsonArray.getJSONObject(i);
+                    departments[i] = jo.getString("depName");
+                    depIds[i] = jo.getInt("depId");
+                }
+
+                fetchAndShowData();
+
+            } catch (Exception e) {
+                e.printStackTrace();
+                fetchAndShowData();
+            }
+        }
+
+        @Override
+        protected String doInBackground(String... strings) {
+            try {
+                response = util.getDepartments(orgId);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+    }
 
 }

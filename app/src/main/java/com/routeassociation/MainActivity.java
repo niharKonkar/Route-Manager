@@ -53,8 +53,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private Context context;
     private Dialog dialog;
     private boolean doubleBackToExitPressedOnce;
-    private ConstraintLayout vehicleDetailsLayout, routeDetailsLayout;
-    private LottieAnimationView vehicleAnimationView, routeAnimationView;
+    private ConstraintLayout vehicleDetailsLayout, routeDetailsLayout,attendancelistLayout;
+    private LottieAnimationView vehicleAnimationView, routeAnimationView,attendanceAnimationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,8 +91,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                     vehicleDetailsLayout = findViewById(R.id.vehicleDetailsLayout);
                     routeDetailsLayout = findViewById(R.id.routeDetailsLayout);
+                    attendancelistLayout = findViewById(R.id.attendancelistLayout);
                     vehicleAnimationView = findViewById(R.id.vehicleAnimationView);
                     routeAnimationView = findViewById(R.id.routeAnimationView);
+                    attendanceAnimationView = findViewById(R.id.routeAnimationView2);
 
                     vehicleAnimationView.setAnimation(R.raw.bus);
                     vehicleAnimationView.enableMergePathsForKitKatAndAbove(true);
@@ -100,13 +102,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     routeAnimationView.setAnimation(R.raw.route);
                     routeAnimationView.enableMergePathsForKitKatAndAbove(true);
 
+                    attendanceAnimationView.setAnimation(R.raw.student_attendance);
+                    attendanceAnimationView.enableMergePathsForKitKatAndAbove(true);
+
                     vehicleDetailsLayout.setOnClickListener(view -> {
                         Intent intent = new Intent(MainActivity.this, LiveDetailsActivity.class);
                         startActivity(intent);
-});
+                    });
 
                     routeDetailsLayout.setOnClickListener(view -> {
                         Intent intent = new Intent(MainActivity.this, RoutesDetailsAndInfoActivity.class);
+                        startActivity(intent);
+                    });
+
+                    attendancelistLayout.setOnClickListener(view -> {
+                        Intent intent = new Intent(MainActivity.this,AttendanceListDetailsActivity.class);
                         startActivity(intent);
                     });
 

@@ -12,6 +12,28 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        app:popupTheme="@style/ToolbarStyle"/>
+        app:popupTheme="@style/ToolbarStyle">
+
+        <ImageButton
+            android:id="@+id/cancelImgBtn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:visibility="gone"
+            android:layout_marginLeft="15dp"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/ic_baseline_cancel_24"/>
+
+        <ImageButton
+            android:id="@+id/depImgBtn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/ic_baseline_location_city_24"/>
+
+    </androidx.appcompat.widget.Toolbar>
 
 </com.google.android.material.appbar.AppBarLayout>
